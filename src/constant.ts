@@ -1,0 +1,28 @@
+
+export const globalConstants = {
+  LOCALHOST: 'localhost',
+  USER_EXIST: 'User already exists',
+  BAD_REQUEST: 'Bad request',
+  DB_URL: 'mongodb://localhost/demo',
+  TRAIN: 'trains',
+  ID: 'id',
+  PUT: 'PUT',
+  POST: 'POST',
+  DELETE: 'DELETE',
+  DATAFILE: '/src/data/data.json',
+  TRAINS: 'trains',
+  SEARCH: 'search',
+  NO_TRAIN_FOUND: 'no train found',
+  MESSAGE: 'message',
+  BOOKING: 'booking',
+  BOOKING_CONFIRMED: 'booking confirmed',
+  REQUESTED_SEATS_NOT_AVAILABLE: 'requested seats are not available',
+  DATA: 'data',
+  TICKETS: 'tickets',
+  FIRST: 'first',
+  BUSINESS: 'business',
+  NO_SEAT_AVAILABLE: 'no seat available',
+  STANDARD: 'standard',
+  DATA_ALREADY_EXISTS: 'data already exists',
+  DATA_CREATED: "data created successfully"
+}
