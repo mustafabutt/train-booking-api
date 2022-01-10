@@ -1,0 +1,95 @@
+{
+  "trains": [
+    {
+      "ticketType": "flexible",
+      "outboundTime": "10:00 AM",
+      "returnTime": "10:00 PM",
+      "returnDate": "2022-01-17T00:00:00.000Z",
+      "outboundDate": "2022-01-15T00:00:00.000Z",
+      "departureStation": "Sialkot",
+      "arrivaleStation": "Karachi",
+      "seats": [
+        {
+          "count": 15,
+          "classes": [
+            {
+              "numberOfticketsAvailable": 0,
+              "class": "first"
+            },
+            {
+              "numberOfticketsAvailable": 10,
+              "class": "business"
+            },
+            {
+              "numberOfticketsAvailable": 5,
+              "class": "standard"
+            }
+          ]
+        }
+      ],
+      "trainName": "super",
+      "trainId": 1
+    },
+    {
+      "_id": "61d6eed1f27e353e933c05d5",
+      "ticketType": "non flexible",
+      "outboundTime": "02:00 AM",
+      "returnTime": "06:00 AM",
+      "returnDate": "2022-01-19T00:00:00.000Z",
+      "outboundDate": "2022-01-18T00:00:00.000Z",
+      "departureStation": "Lahore",
+      "arrivaleStation": "Faisalabad",
+      "seats": [
+        {
+          "count": 150,
+          "classes": [
+            {
+              "numberOfticketsAvailable": 61,
+              "class": "first"
+            },
+            {
+              "numberOfticketsAvailable": 45,
+              "class": "business"
+            },
+            {
+              "numberOfticketsAvailable": 44,
+              "class": "standard"
+            }
+          ]
+        }
+      ],
+      "trainName": "shaheen",
+      "trainId": 2
+    },
+    {
+      "ticketType": "flexible",
+      "outboundTime": "02:00 PM",
+      "returnTime": "16:00 PM",
+      "returnDate": "2022-01-20T00:00:00.000Z",
+      "outboundDate": "2022-01-19T00:00:00.000Z",
+      "departureStation": "Faisalabad",
+      "arrivaleStation": "Lahore",
+      "seats": [
+        {
+          "count": 70,
+          "classes": [
+            {
+              "numberOfticketsAvailable": 41,
+              "class": "first"
+            },
+            {
+              "numberOfticketsAvailable": 10,
+              "class": "business"
+            },
+            {
+              "numberOfticketsAvailable": 19,
+              "class": "standard"
+            }
+          ]
+        }
+      ],
+      "trainName": "green line",
+      "trainId": 3
+    }
+  ]
+}
