@@ -5,7 +5,7 @@ Instructions to run this API
 
 Make sure you have installed Nodejs & MongoDB is running. Clone the source code and run the following commands in to the root directory.
 
-npm install 
+npm install  <br />
 npm start
 
 Now open postman and make a get request on the following URL to populate the database with dummy data.
